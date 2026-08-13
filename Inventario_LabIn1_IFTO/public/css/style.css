@@ -1,0 +1,149 @@
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    background-color: #f6f8fa; 
+    color: #24292f; 
+    margin: 0;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 24px;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+}
+
+.form-container {
+    max-width: 500px;
+}
+
+h1, h2 {
+    color: #24292f;
+    text-align: center;
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 8px 12px;
+    border: 1px solid #d0d7de;
+    text-align: left;
+}
+
+table th {
+    background-color: #f6f8fa;
+    color: #24292f;
+    font-weight: 600;
+}
+
+table tr {
+    background-color: #ffffff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f6f8fa;
+}
+
+table tr:hover {
+    background-color: #eaeef2;
+}
+
+form label {
+    display: block;
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+form input {
+    width: 100%;
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #24292f;
+    background-color: #f6f8fa;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: 80ms cubic-bezier(0.33, 1, 0.68, 1);
+    transition-property: color, background-color, box-shadow, border-color;
+}
+
+form input:focus {
+    background-color: #ffffff;
+    border-color: #0969da;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(9,105,218,0.3);
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid rgba(27, 31, 36, 0.15);
+    border-radius: 6px;
+    appearance: none;
+    text-decoration: none;
+    color: #24292f;
+    background-color: #f6f8fa;
+    box-shadow: 0 1px 0 rgba(27, 31, 36, 0.04), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    transition-property: color, background-color, border-color;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: #f3f4f6;
+    border-color: rgba(27, 31, 36, 0.15);
+}
+
+.btn-add {
+    color: #ffffff;
+    background-color: #2da44e;
+    border-color: rgba(27, 31, 36, 0.15);
+}
+
+.btn-add:hover {
+    background-color: #2c974b;
+}
+
+.btn-edit {
+    color: #ffffff;
+    background-color: #0969da;
+    border-color: rgba(27, 31, 36, 0.15);
+    margin-top: 0;
+}
+
+.btn-edit:hover {
+    background-color: #0860c7;
+}
+
+.btn-delete {
+    color: #cf222e;
+    background-color: #ffffff;
+    margin-top: 0;
+}
+
+.btn-delete:hover {
+    color: #ffffff;
+    background-color: #a40e26;
+    border-color: rgba(27, 31, 36, 0.15);
+}
