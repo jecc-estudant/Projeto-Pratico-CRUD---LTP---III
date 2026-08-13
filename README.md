@@ -6,17 +6,17 @@ Este projeto é uma aplicação web desenvolvida em **PHP** utilizando o paradig
 
 A aplicação permite o controle do parque tecnológico armazenando as seguintes características de cada máquina:
 
-- **1.1 - Marca do Computador**
-- **1.2 - Modelo da CPU**
-- **1.3 - Modelo da Memória RAM**
-- **1.4 - Modelo do Gabinete**
-- **1.5 - Modelo do Monitor**
+- **1.1 - Marca do Computador**;
+- **1.2 - Modelo da CPU**;
+- **1.3 - Modelo da Memória RAM**;
+- **1.4 - Modelo do Gabinete**;
+- **1.5 - Modelo do Monitor**.
 
 O sistema possui uma interface limpa e amigável, permitindo:
 
-- **1º) Listar** todos os computadores cadastrados.
-- **2º) Cadastrar** novas máquinas.
-- **3º) Editar** as configurações de uma máquina existente.
+- **1º) Listar** todos os computadores cadastrados;
+- **2º) Cadastrar** novas máquinas;
+- **3º) Editar** as configurações de uma máquina existente;
 - **4º) Excluir** uma máquina do inventário.
 
 ## 2. Tecnologias Utilizadas:
